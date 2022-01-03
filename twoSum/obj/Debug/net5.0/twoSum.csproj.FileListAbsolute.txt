@@ -1,0 +1,15 @@
+/Users/goodgod/Code/C#/leetcode/twoSum/bin/Debug/net5.0/twoSum.deps.json
+/Users/goodgod/Code/C#/leetcode/twoSum/bin/Debug/net5.0/twoSum.runtimeconfig.json
+/Users/goodgod/Code/C#/leetcode/twoSum/bin/Debug/net5.0/twoSum.runtimeconfig.dev.json
+/Users/goodgod/Code/C#/leetcode/twoSum/bin/Debug/net5.0/twoSum.dll
+/Users/goodgod/Code/C#/leetcode/twoSum/bin/Debug/net5.0/ref/twoSum.dll
+/Users/goodgod/Code/C#/leetcode/twoSum/bin/Debug/net5.0/twoSum.pdb
+/Users/goodgod/Code/C#/leetcode/twoSum/obj/Debug/net5.0/twoSum.csproj.AssemblyReference.cache
+/Users/goodgod/Code/C#/leetcode/twoSum/obj/Debug/net5.0/twoSum.GeneratedMSBuildEditorConfig.editorconfig
+/Users/goodgod/Code/C#/leetcode/twoSum/obj/Debug/net5.0/twoSum.AssemblyInfoInputs.cache
+/Users/goodgod/Code/C#/leetcode/twoSum/obj/Debug/net5.0/twoSum.AssemblyInfo.cs
+/Users/goodgod/Code/C#/leetcode/twoSum/obj/Debug/net5.0/twoSum.csproj.CoreCompileInputs.cache
+/Users/goodgod/Code/C#/leetcode/twoSum/obj/Debug/net5.0/twoSum.dll
+/Users/goodgod/Code/C#/leetcode/twoSum/obj/Debug/net5.0/ref/twoSum.dll
+/Users/goodgod/Code/C#/leetcode/twoSum/obj/Debug/net5.0/twoSum.pdb
+/Users/goodgod/Code/C#/leetcode/twoSum/obj/Debug/net5.0/twoSum.genruntimeconfig.cache
