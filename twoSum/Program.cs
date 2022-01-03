@@ -44,24 +44,16 @@ namespace twoSum
     {
         public static int[] TwoSum(int[] nums, int target) 
         {
-            var indexes = new int[2];
-
-            for (var firstIndex = 0; firstIndex < nums.Length; firstIndex++)
-            {
-                var differenceWithTarget = target - nums[firstIndex];
-                
-                for (var secondIndex = firstIndex + 1; secondIndex < nums.Length; secondIndex++)
+            for (var index1 = 0; index1 < nums.Length - 1; index1++)
+            {          
+                for (var index2 = index1 + 1; index2 < nums.Length; index2++)
                 {
-                    if (nums[secondIndex] == differenceWithTarget)
-                    {
-                        indexes[0] = firstIndex;
-                        indexes[1] = secondIndex;
-                        break;
-                    }
+                    if (nums[index1] + nums[index2] == target)
+                        return new int[] {index1, index2};
                 }
             }
 
-            return indexes;   
+            return null;  
         }
     }
 }
