@@ -1,0 +1,15 @@
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/bin/Debug/net5.0/palindromNumbers.deps.json
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/bin/Debug/net5.0/palindromNumbers.runtimeconfig.json
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/bin/Debug/net5.0/palindromNumbers.runtimeconfig.dev.json
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/bin/Debug/net5.0/palindromNumbers.dll
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/bin/Debug/net5.0/ref/palindromNumbers.dll
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/bin/Debug/net5.0/palindromNumbers.pdb
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/obj/Debug/net5.0/palindromNumbers.csproj.AssemblyReference.cache
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/obj/Debug/net5.0/palindromNumbers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/obj/Debug/net5.0/palindromNumbers.AssemblyInfoInputs.cache
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/obj/Debug/net5.0/palindromNumbers.AssemblyInfo.cs
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/obj/Debug/net5.0/palindromNumbers.csproj.CoreCompileInputs.cache
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/obj/Debug/net5.0/palindromNumbers.dll
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/obj/Debug/net5.0/ref/palindromNumbers.dll
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/obj/Debug/net5.0/palindromNumbers.pdb
+/Users/goodgod/Code/C#/leetcode/palindromNumbers/obj/Debug/net5.0/palindromNumbers.genruntimeconfig.cache
