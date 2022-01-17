@@ -1,0 +1,16 @@
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/bin/Debug/net5.0/addTwoNumbers
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/bin/Debug/net5.0/addTwoNumbers.deps.json
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/bin/Debug/net5.0/addTwoNumbers.runtimeconfig.json
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/bin/Debug/net5.0/addTwoNumbers.runtimeconfig.dev.json
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/bin/Debug/net5.0/addTwoNumbers.dll
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/bin/Debug/net5.0/ref/addTwoNumbers.dll
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/bin/Debug/net5.0/addTwoNumbers.pdb
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/obj/Debug/net5.0/addTwoNumbers.csprojAssemblyReference.cache
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/obj/Debug/net5.0/addTwoNumbers.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/obj/Debug/net5.0/addTwoNumbers.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/obj/Debug/net5.0/addTwoNumbers.AssemblyInfo.cs
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/obj/Debug/net5.0/addTwoNumbers.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/obj/Debug/net5.0/addTwoNumbers.dll
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/obj/Debug/net5.0/ref/addTwoNumbers.dll
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/obj/Debug/net5.0/addTwoNumbers.pdb
+/home/flash/Code/Rider/LeetCode/addTwoNumbers/obj/Debug/net5.0/addTwoNumbers.genruntimeconfig.cache
