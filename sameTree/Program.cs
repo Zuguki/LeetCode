@@ -10,6 +10,14 @@ namespace sameTree
         }
     }
     
+    public class Solution 
+    {
+        public bool IsSameTree(TreeNode p, TreeNode q) 
+        {
+        
+        }
+    }
+    
     public class TreeNode 
     {
         public int val;
