@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "canPlaceFlowers/1.0.0": {
+        "runtime": {
+          "canPlaceFlowers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "canPlaceFlowers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

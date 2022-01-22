@@ -1,0 +1,16 @@
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/bin/Debug/net5.0/canPlaceFlowers
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/bin/Debug/net5.0/canPlaceFlowers.deps.json
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/bin/Debug/net5.0/canPlaceFlowers.runtimeconfig.json
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/bin/Debug/net5.0/canPlaceFlowers.runtimeconfig.dev.json
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/bin/Debug/net5.0/canPlaceFlowers.dll
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/bin/Debug/net5.0/ref/canPlaceFlowers.dll
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/bin/Debug/net5.0/canPlaceFlowers.pdb
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/obj/Debug/net5.0/canPlaceFlowers.csprojAssemblyReference.cache
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/obj/Debug/net5.0/canPlaceFlowers.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/obj/Debug/net5.0/canPlaceFlowers.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/obj/Debug/net5.0/canPlaceFlowers.AssemblyInfo.cs
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/obj/Debug/net5.0/canPlaceFlowers.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/obj/Debug/net5.0/canPlaceFlowers.dll
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/obj/Debug/net5.0/ref/canPlaceFlowers.dll
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/obj/Debug/net5.0/canPlaceFlowers.pdb
+/home/flash/Code/Rider/LeetCode/canPlaceFlowers/obj/Debug/net5.0/canPlaceFlowers.genruntimeconfig.cache
