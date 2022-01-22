@@ -1,0 +1,16 @@
+/home/flash/Code/Rider/LeetCode/sameTree/bin/Debug/net5.0/sameTree
+/home/flash/Code/Rider/LeetCode/sameTree/bin/Debug/net5.0/sameTree.deps.json
+/home/flash/Code/Rider/LeetCode/sameTree/bin/Debug/net5.0/sameTree.runtimeconfig.json
+/home/flash/Code/Rider/LeetCode/sameTree/bin/Debug/net5.0/sameTree.runtimeconfig.dev.json
+/home/flash/Code/Rider/LeetCode/sameTree/bin/Debug/net5.0/sameTree.dll
+/home/flash/Code/Rider/LeetCode/sameTree/bin/Debug/net5.0/ref/sameTree.dll
+/home/flash/Code/Rider/LeetCode/sameTree/bin/Debug/net5.0/sameTree.pdb
+/home/flash/Code/Rider/LeetCode/sameTree/obj/Debug/net5.0/sameTree.csprojAssemblyReference.cache
+/home/flash/Code/Rider/LeetCode/sameTree/obj/Debug/net5.0/sameTree.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/LeetCode/sameTree/obj/Debug/net5.0/sameTree.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/LeetCode/sameTree/obj/Debug/net5.0/sameTree.AssemblyInfo.cs
+/home/flash/Code/Rider/LeetCode/sameTree/obj/Debug/net5.0/sameTree.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/LeetCode/sameTree/obj/Debug/net5.0/sameTree.dll
+/home/flash/Code/Rider/LeetCode/sameTree/obj/Debug/net5.0/ref/sameTree.dll
+/home/flash/Code/Rider/LeetCode/sameTree/obj/Debug/net5.0/sameTree.pdb
+/home/flash/Code/Rider/LeetCode/sameTree/obj/Debug/net5.0/sameTree.genruntimeconfig.cache
