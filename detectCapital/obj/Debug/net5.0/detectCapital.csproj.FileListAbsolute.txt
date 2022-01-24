@@ -1,0 +1,16 @@
+/home/flash/Code/Rider/LeetCode/detectCapital/bin/Debug/net5.0/detectCapital
+/home/flash/Code/Rider/LeetCode/detectCapital/bin/Debug/net5.0/detectCapital.deps.json
+/home/flash/Code/Rider/LeetCode/detectCapital/bin/Debug/net5.0/detectCapital.runtimeconfig.json
+/home/flash/Code/Rider/LeetCode/detectCapital/bin/Debug/net5.0/detectCapital.runtimeconfig.dev.json
+/home/flash/Code/Rider/LeetCode/detectCapital/bin/Debug/net5.0/detectCapital.dll
+/home/flash/Code/Rider/LeetCode/detectCapital/bin/Debug/net5.0/ref/detectCapital.dll
+/home/flash/Code/Rider/LeetCode/detectCapital/bin/Debug/net5.0/detectCapital.pdb
+/home/flash/Code/Rider/LeetCode/detectCapital/obj/Debug/net5.0/detectCapital.csprojAssemblyReference.cache
+/home/flash/Code/Rider/LeetCode/detectCapital/obj/Debug/net5.0/detectCapital.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/LeetCode/detectCapital/obj/Debug/net5.0/detectCapital.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/LeetCode/detectCapital/obj/Debug/net5.0/detectCapital.AssemblyInfo.cs
+/home/flash/Code/Rider/LeetCode/detectCapital/obj/Debug/net5.0/detectCapital.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/LeetCode/detectCapital/obj/Debug/net5.0/detectCapital.dll
+/home/flash/Code/Rider/LeetCode/detectCapital/obj/Debug/net5.0/ref/detectCapital.dll
+/home/flash/Code/Rider/LeetCode/detectCapital/obj/Debug/net5.0/detectCapital.pdb
+/home/flash/Code/Rider/LeetCode/detectCapital/obj/Debug/net5.0/detectCapital.genruntimeconfig.cache
