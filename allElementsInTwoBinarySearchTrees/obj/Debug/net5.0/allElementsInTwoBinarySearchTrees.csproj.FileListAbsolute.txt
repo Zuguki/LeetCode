@@ -1,0 +1,16 @@
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/bin/Debug/net5.0/allElementsInTwoBinarySearchTrees
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/bin/Debug/net5.0/allElementsInTwoBinarySearchTrees.deps.json
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/bin/Debug/net5.0/allElementsInTwoBinarySearchTrees.runtimeconfig.json
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/bin/Debug/net5.0/allElementsInTwoBinarySearchTrees.runtimeconfig.dev.json
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/bin/Debug/net5.0/allElementsInTwoBinarySearchTrees.dll
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/bin/Debug/net5.0/ref/allElementsInTwoBinarySearchTrees.dll
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/bin/Debug/net5.0/allElementsInTwoBinarySearchTrees.pdb
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/obj/Debug/net5.0/allElementsInTwoBinarySearchTrees.csprojAssemblyReference.cache
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/obj/Debug/net5.0/allElementsInTwoBinarySearchTrees.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/obj/Debug/net5.0/allElementsInTwoBinarySearchTrees.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/obj/Debug/net5.0/allElementsInTwoBinarySearchTrees.AssemblyInfo.cs
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/obj/Debug/net5.0/allElementsInTwoBinarySearchTrees.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/obj/Debug/net5.0/allElementsInTwoBinarySearchTrees.dll
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/obj/Debug/net5.0/ref/allElementsInTwoBinarySearchTrees.dll
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/obj/Debug/net5.0/allElementsInTwoBinarySearchTrees.pdb
+/home/flash/Code/Rider/LeetCode/allElementsInTwoBinarySearchTrees/obj/Debug/net5.0/allElementsInTwoBinarySearchTrees.genruntimeconfig.cache
