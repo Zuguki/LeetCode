@@ -13,16 +13,8 @@ namespace findTheDifference
     
     public class Solution 
     {
-        public char FindTheDifference(string s, string t)
-        {
-            foreach (var letter in t.Where(letter => !s.Contains(letter) 
-                                                     || t.Count(let => let == letter) 
-                                                     > s.Count(c => c == letter)))
-            {
-                return letter;
-            }
-
-            return ' ';
-        } 
+        public char FindTheDifference(string s, string t) => t.First(letter => !s.Contains(letter) 
+                                                                               || t.Count(let => let == letter) 
+                                                                               > s.Count(c => c == letter));
     }
 }
