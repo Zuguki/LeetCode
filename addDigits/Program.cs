@@ -15,6 +15,7 @@ namespace addDigits
         public int AddDigits(int num)
         {
             var sum = 0;
+            
             while (num > 0)
             {
                 sum += num % 10;
