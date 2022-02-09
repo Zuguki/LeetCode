@@ -1,0 +1,16 @@
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/obj/Debug/net5.0/kDiffPairsInArray.csprojAssemblyReference.cache
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/obj/Debug/net5.0/kDiffPairsInArray.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/obj/Debug/net5.0/kDiffPairsInArray.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/obj/Debug/net5.0/kDiffPairsInArray.AssemblyInfo.cs
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/obj/Debug/net5.0/kDiffPairsInArray.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/bin/Debug/net5.0/kDiffPairsInArray
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/bin/Debug/net5.0/kDiffPairsInArray.deps.json
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/bin/Debug/net5.0/kDiffPairsInArray.runtimeconfig.json
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/bin/Debug/net5.0/kDiffPairsInArray.runtimeconfig.dev.json
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/bin/Debug/net5.0/kDiffPairsInArray.dll
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/bin/Debug/net5.0/ref/kDiffPairsInArray.dll
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/bin/Debug/net5.0/kDiffPairsInArray.pdb
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/obj/Debug/net5.0/kDiffPairsInArray.dll
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/obj/Debug/net5.0/ref/kDiffPairsInArray.dll
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/obj/Debug/net5.0/kDiffPairsInArray.pdb
+/home/flash/Code/Rider/LeetCode/kDiffPairsInArray/obj/Debug/net5.0/kDiffPairsInArray.genruntimeconfig.cache
