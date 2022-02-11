@@ -1,0 +1,16 @@
+/home/flash/Code/Rider/LeetCode/permutationInString/bin/Debug/net5.0/permutationInString
+/home/flash/Code/Rider/LeetCode/permutationInString/bin/Debug/net5.0/permutationInString.deps.json
+/home/flash/Code/Rider/LeetCode/permutationInString/bin/Debug/net5.0/permutationInString.runtimeconfig.json
+/home/flash/Code/Rider/LeetCode/permutationInString/bin/Debug/net5.0/permutationInString.runtimeconfig.dev.json
+/home/flash/Code/Rider/LeetCode/permutationInString/bin/Debug/net5.0/permutationInString.dll
+/home/flash/Code/Rider/LeetCode/permutationInString/bin/Debug/net5.0/ref/permutationInString.dll
+/home/flash/Code/Rider/LeetCode/permutationInString/bin/Debug/net5.0/permutationInString.pdb
+/home/flash/Code/Rider/LeetCode/permutationInString/obj/Debug/net5.0/permutationInString.csprojAssemblyReference.cache
+/home/flash/Code/Rider/LeetCode/permutationInString/obj/Debug/net5.0/permutationInString.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/LeetCode/permutationInString/obj/Debug/net5.0/permutationInString.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/LeetCode/permutationInString/obj/Debug/net5.0/permutationInString.AssemblyInfo.cs
+/home/flash/Code/Rider/LeetCode/permutationInString/obj/Debug/net5.0/permutationInString.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/LeetCode/permutationInString/obj/Debug/net5.0/permutationInString.dll
+/home/flash/Code/Rider/LeetCode/permutationInString/obj/Debug/net5.0/ref/permutationInString.dll
+/home/flash/Code/Rider/LeetCode/permutationInString/obj/Debug/net5.0/permutationInString.pdb
+/home/flash/Code/Rider/LeetCode/permutationInString/obj/Debug/net5.0/permutationInString.genruntimeconfig.cache
