@@ -9,7 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="729f7e41-7884-4e15-afa1-9ad635a60a4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.permutationInString.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.permutationInString.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644575836834</updated>
-      <workItem from="1644575840818" duration="2646000" />
+      <workItem from="1644575840818" duration="3852000" />
     </task>
     <servers />
   </component>
