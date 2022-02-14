@@ -24,7 +24,7 @@ namespace permutationInString
             var s1Hash = new int[26]; 
             var s2Hash = new int[26];
 
-            for (var i=0; i<s1.Length; i++)
+            for (var i = 0; i < s1.Length; i++)
             {
                 s1Hash[s1[i] - 97]++;
                 s2Hash[s2[i] - 97]++;
@@ -33,7 +33,7 @@ namespace permutationInString
             if (s1Hash.SequenceEqual(s2Hash)) 
                 return true; 
             
-            for (var i=s1.Length; i<s2.Length; i++)
+            for (var i = s1.Length; i < s2.Length; i++)
             {   
                 s2Hash[s2[i] - 97]++;
                 s2Hash[s2[i - s1.Length] - 97]--;
