@@ -1,0 +1,16 @@
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/bin/Debug/net5.0/maximumDepthOfBinaryTree
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/bin/Debug/net5.0/maximumDepthOfBinaryTree.deps.json
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/bin/Debug/net5.0/maximumDepthOfBinaryTree.runtimeconfig.json
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/bin/Debug/net5.0/maximumDepthOfBinaryTree.runtimeconfig.dev.json
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/bin/Debug/net5.0/maximumDepthOfBinaryTree.dll
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/bin/Debug/net5.0/ref/maximumDepthOfBinaryTree.dll
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/bin/Debug/net5.0/maximumDepthOfBinaryTree.pdb
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/obj/Debug/net5.0/maximumDepthOfBinaryTree.csprojAssemblyReference.cache
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/obj/Debug/net5.0/maximumDepthOfBinaryTree.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/obj/Debug/net5.0/maximumDepthOfBinaryTree.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/obj/Debug/net5.0/maximumDepthOfBinaryTree.AssemblyInfo.cs
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/obj/Debug/net5.0/maximumDepthOfBinaryTree.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/obj/Debug/net5.0/maximumDepthOfBinaryTree.dll
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/obj/Debug/net5.0/ref/maximumDepthOfBinaryTree.dll
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/obj/Debug/net5.0/maximumDepthOfBinaryTree.pdb
+/home/flash/Code/Rider/LeetCode/maximumDepthOfBinaryTree/obj/Debug/net5.0/maximumDepthOfBinaryTree.genruntimeconfig.cache
