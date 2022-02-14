@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="729f7e41-7884-4e15-afa1-9ad635a60a4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.permutationInString.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.permutationInString.dir/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="729f7e41-7884-4e15-afa1-9ad635a60a4c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../maximumDepthOfBinaryTree" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -65,7 +64,7 @@
       <updated>1644575836834</updated>
       <workItem from="1644575840818" duration="3852000" />
       <workItem from="1644811140177" duration="1208000" />
-      <workItem from="1644812985624" duration="1320000" />
+      <workItem from="1644812985624" duration="1329000" />
     </task>
     <servers />
   </component>
