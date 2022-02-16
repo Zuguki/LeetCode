@@ -1,0 +1,16 @@
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/bin/Debug/net5.0/swapNodesInPairs
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/bin/Debug/net5.0/swapNodesInPairs.deps.json
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/bin/Debug/net5.0/swapNodesInPairs.runtimeconfig.json
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/bin/Debug/net5.0/swapNodesInPairs.runtimeconfig.dev.json
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/bin/Debug/net5.0/swapNodesInPairs.dll
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/bin/Debug/net5.0/ref/swapNodesInPairs.dll
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/bin/Debug/net5.0/swapNodesInPairs.pdb
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/obj/Debug/net5.0/swapNodesInPairs.csprojAssemblyReference.cache
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/obj/Debug/net5.0/swapNodesInPairs.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/obj/Debug/net5.0/swapNodesInPairs.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/obj/Debug/net5.0/swapNodesInPairs.AssemblyInfo.cs
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/obj/Debug/net5.0/swapNodesInPairs.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/obj/Debug/net5.0/swapNodesInPairs.dll
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/obj/Debug/net5.0/ref/swapNodesInPairs.dll
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/obj/Debug/net5.0/swapNodesInPairs.pdb
+/home/flash/Code/Rider/LeetCode/swapNodesInPairs/obj/Debug/net5.0/swapNodesInPairs.genruntimeconfig.cache
