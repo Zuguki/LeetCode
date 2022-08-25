@@ -1,0 +1,15 @@
+/Users/goodgod/Code/C#/leetcode/singleNumber/bin/Debug/net5.0/singleNumber.deps.json
+/Users/goodgod/Code/C#/leetcode/singleNumber/bin/Debug/net5.0/singleNumber.runtimeconfig.json
+/Users/goodgod/Code/C#/leetcode/singleNumber/bin/Debug/net5.0/singleNumber.runtimeconfig.dev.json
+/Users/goodgod/Code/C#/leetcode/singleNumber/bin/Debug/net5.0/singleNumber.dll
+/Users/goodgod/Code/C#/leetcode/singleNumber/bin/Debug/net5.0/ref/singleNumber.dll
+/Users/goodgod/Code/C#/leetcode/singleNumber/bin/Debug/net5.0/singleNumber.pdb
+/Users/goodgod/Code/C#/leetcode/singleNumber/obj/Debug/net5.0/singleNumber.csproj.AssemblyReference.cache
+/Users/goodgod/Code/C#/leetcode/singleNumber/obj/Debug/net5.0/singleNumber.GeneratedMSBuildEditorConfig.editorconfig
+/Users/goodgod/Code/C#/leetcode/singleNumber/obj/Debug/net5.0/singleNumber.AssemblyInfoInputs.cache
+/Users/goodgod/Code/C#/leetcode/singleNumber/obj/Debug/net5.0/singleNumber.AssemblyInfo.cs
+/Users/goodgod/Code/C#/leetcode/singleNumber/obj/Debug/net5.0/singleNumber.csproj.CoreCompileInputs.cache
+/Users/goodgod/Code/C#/leetcode/singleNumber/obj/Debug/net5.0/singleNumber.dll
+/Users/goodgod/Code/C#/leetcode/singleNumber/obj/Debug/net5.0/ref/singleNumber.dll
+/Users/goodgod/Code/C#/leetcode/singleNumber/obj/Debug/net5.0/singleNumber.pdb
+/Users/goodgod/Code/C#/leetcode/singleNumber/obj/Debug/net5.0/singleNumber.genruntimeconfig.cache
