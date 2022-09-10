@@ -47,4 +47,20 @@ public class Tests
         var result = solution.Convert("AB", 1);
         Assert.AreEqual("AB", result);
     }
+    
+    [Test]
+    public void Test2ConvertWith3Letters()
+    {
+        var solution = new Solution();
+        var result = solution.Convert("ABC", 2);
+        Assert.AreEqual("ACB", result);
+    }
+    
+    [Test]
+    public void Test2ConvertWith4Letters()
+    {
+        var solution = new Solution();
+        var result = solution.Convert("ABCD", 2);
+        Assert.AreEqual("ACBD", result);
+    }
 }

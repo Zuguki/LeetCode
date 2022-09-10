@@ -47,6 +47,9 @@ public class Solution
 
     private int GetNextIndex(int index, int numRows)
     {
+        if (numRows is 2)
+            return index % numRows;
+        
         if (_stack.Count == 0)
             _stackClear = true;
         if (_stackCounter == numRows && _stack.Count != 0)
@@ -58,7 +61,7 @@ public class Solution
         if (!_stackClear)
             return _stack.Pop();
 
-        if (_stackClear && _stackCounter != 0 && _stackCounter != numRows - 1)
+        if (_stackCounter != 0 && _stackCounter != numRows - 1)
             _stack.Push(_stackCounter);
         
         return _stackCounter++;
