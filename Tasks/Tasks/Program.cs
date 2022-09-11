@@ -19,15 +19,24 @@ using System.Text;
 
 // Output: PHASIYIRPLIGAN
 
+// Algorythm
+// 0   0   0 
+// 1 1 1 1 1
+// 2   2   2
 
 Console.ReadLine();
+
+public enum GoTo
+{
+    Bottom = 1,
+    Top = -1
+}
 
 public class Solution
 {
     private string[] _strings;
-    private readonly Stack<int> _stack = new();
-    private bool _stackClear = true;
-    private int _stackCounter;
+    private GoTo _target = GoTo.Bottom;
+    private int _rowsCounter;
 
     public string Convert(string str, int numRows)
     {
@@ -36,7 +45,9 @@ public class Solution
         
         _strings = new string[numRows];
         for (var index = 0; index < str.Length; index++)
+        {
             _strings[GetNextIndex(index, numRows)] += str[index];
+        }
 
         var sb = new StringBuilder();
         for (var index = 0; index < numRows; index++)
@@ -47,23 +58,19 @@ public class Solution
 
     private int GetNextIndex(int index, int numRows)
     {
-        if (numRows is 2)
-            return index % numRows;
-        
-        if (_stack.Count == 0)
-            _stackClear = true;
-        if (_stackCounter == numRows && _stack.Count != 0)
-        {
-            _stackClear = false;
-            _stackCounter = 0;
-        }
-        
-        if (!_stackClear)
-            return _stack.Pop();
+        _target = TryChangeDirection(numRows);
+        _rowsCounter += (int) _target;
+        return _rowsCounter - 1;
+    }
 
-        if (_stackCounter != 0 && _stackCounter != numRows - 1)
-            _stack.Push(_stackCounter);
-        
-        return _stackCounter++;
+    private GoTo TryChangeDirection(int numRows)
+    {
+        var direction = _target;
+        if (_rowsCounter is 0 or 1)
+            direction = GoTo.Bottom;
+        else if (_rowsCounter == numRows)
+            direction = GoTo.Top;
+
+        return direction;
     }
 }
