@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "URVPOf7cccPECGdgIQi2Zt2qY44kDDXwCweKUMuk0vWf86wSfX7YLLYUvWIm8fHmvEEEVViChAvocVR81ZEAJA==",
+  "dgSpecHash": "NUvZMTuNPIn+6h4GYQpj3gnaGAffFbNSiA5eRbZiOUcSg9wa6LGHGpRklZKN09TJNXfMt4RCOBq6LhLlSNdgbw==",
   "success": true,
-  "projectFilePath": "/home/flash/Code/Rider/LeetCode/Tasks/Tasks/Tasks.csproj",
+  "projectFilePath": "/home/flash/Code/Rider/LeetCode/Tasks/ZigZag/ZigZag.csproj",
   "expectedPackageFiles": [
     "/home/flash/.nuget/packages/microsoft.codecoverage/17.3.1/microsoft.codecoverage.17.3.1.nupkg.sha512",
     "/home/flash/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",

@@ -3795,11 +3795,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/flash/Code/Rider/LeetCode/Tasks/Tasks/Tasks.csproj",
-      "projectName": "Tasks",
-      "projectPath": "/home/flash/Code/Rider/LeetCode/Tasks/Tasks/Tasks.csproj",
+      "projectUniqueName": "/home/flash/Code/Rider/LeetCode/Tasks/ZigZag/ZigZag.csproj",
+      "projectName": "ZigZag",
+      "projectPath": "/home/flash/Code/Rider/LeetCode/Tasks/ZigZag/ZigZag.csproj",
       "packagesPath": "/home/flash/.nuget/packages/",
-      "outputPath": "/home/flash/Code/Rider/LeetCode/Tasks/Tasks/obj/",
+      "outputPath": "/home/flash/Code/Rider/LeetCode/Tasks/ZigZag/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/flash/.nuget/NuGet/NuGet.Config"

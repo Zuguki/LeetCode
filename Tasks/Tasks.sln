@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Tasks\Tasks.csproj", "{559FBF4F-2771-4F03-A30E-5F86369513DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigZag", "ZigZag\ZigZag.csproj", "{559FBF4F-2771-4F03-A30E-5F86369513DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
