@@ -26,16 +26,10 @@ using System.Text;
 
 Console.ReadLine();
 
-public enum GoTo
-{
-    Bottom = 1,
-    Top = -1
-}
-
 public class Solution
 {
     private string[] _strings;
-    private GoTo _target = GoTo.Bottom;
+    private bool _goToBottom = true;
     private int _rowsCounter;
 
     public string Convert(string str, int numRows)
@@ -58,18 +52,18 @@ public class Solution
 
     private int GetNextIndex(int index, int numRows)
     {
-        _target = TryChangeDirection(numRows);
-        _rowsCounter += (int) _target;
+        _goToBottom = TryChangeDirection(numRows);
+        _rowsCounter += _goToBottom ? 1 : -1;
         return _rowsCounter - 1;
     }
 
-    private GoTo TryChangeDirection(int numRows)
+    private bool TryChangeDirection(int numRows)
     {
-        var direction = _target;
+        var direction = _goToBottom;
         if (_rowsCounter is 0 or 1)
-            direction = GoTo.Bottom;
+            direction = true;
         else if (_rowsCounter == numRows)
-            direction = GoTo.Top;
+            direction = false;
 
         return direction;
     }
