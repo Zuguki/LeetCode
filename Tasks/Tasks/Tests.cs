@@ -12,6 +12,22 @@ public class Tests
         var result = solution.Convert("A", 1);
         Assert.AreEqual("A", result);
     }
+    
+    [Test]
+    public void Test2ConvertWith1Letters()
+    {
+        var solution = new Solution();
+        var result = solution.Convert("A", 2);
+        Assert.AreEqual("A", result);
+    }
+    
+    [Test]
+    public void Test3ConvertWith2Letters()
+    {
+        var solution = new Solution();
+        var result = solution.Convert("AB", 3);
+        Assert.AreEqual("AB", result);
+    }
 
     [Test]
     public void Test3Convert()

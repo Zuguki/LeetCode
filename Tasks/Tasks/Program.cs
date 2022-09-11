@@ -37,20 +37,18 @@ public class Solution
         if (numRows == 1)
             return str;
         
-        _strings = new string[numRows];
-        for (var index = 0; index < str.Length; index++)
-        {
-            _strings[GetNextIndex(index, numRows)] += str[index];
-        }
+        _strings = new string[str.Length < numRows ? str.Length : numRows];
+        foreach (var symbol in str)
+            _strings[GetNextIndex(numRows)] += symbol;
 
         var sb = new StringBuilder();
-        for (var index = 0; index < numRows; index++)
-            sb.Append(_strings[index]);
+        foreach (var value in _strings)
+            sb.Append(value);
 
         return sb.ToString();
     }
 
-    private int GetNextIndex(int index, int numRows)
+    private int GetNextIndex(int numRows)
     {
         _goToBottom = TryChangeDirection(numRows);
         _rowsCounter += _goToBottom ? 1 : -1;
