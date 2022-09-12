@@ -1,18 +1,28 @@
 ﻿using System.Text;
 
-var str = Kata.Maskify("Hello My Friends");
+var str = Kata.GetUnique(new [] {1, 1, 1, 1, 2, 1});
 Console.WriteLine(str);
-str = Kata.Maskify("He");
+str = Kata.GetUnique(new[] {-4, 4, 4, 4, 4});
 Console.WriteLine(str);
 
-public static class Kata
+public class Kata
 {
-    public static string? Maskify(string cc)
+    public static int GetUnique(IEnumerable<int> numbers)
     {
-        var sb = new StringBuilder();
-        for (var index = 0; index < cc.Length; index++)
-            sb.Append(cc.Length - index > 4 ? '#' : cc[index]);
+        var dict = new Dictionary<int, int>();
+        var previewItem = 0;
+        foreach (var number in numbers)
+        {
+            if (!dict.ContainsKey(number) && dict.ContainsKey(previewItem) && dict[previewItem] > 1)
+                return number;
 
-        return sb.ToString();
+            if (!dict.ContainsKey(number))
+                dict.Add(number, 0);
+
+            dict[number]++;
+            previewItem = number;
+        }
+
+        return dict.First(item => item.Value == 1).Key;
     }
 }
