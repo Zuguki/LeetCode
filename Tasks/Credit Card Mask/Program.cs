@@ -1,28 +1,24 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
-var str = Kata.GetUnique(new [] {1, 1, 1, 1, 2, 1});
-Console.WriteLine(str);
-str = Kata.GetUnique(new[] {-4, 4, 4, 4, 4});
-Console.WriteLine(str);
+var str = "abcde";
+Console.WriteLine(Kata.DuplicateCount(str));
 
 public class Kata
 {
-    public static int GetUnique(IEnumerable<int> numbers)
+    public static int DuplicateCount(string str)
     {
-        var dict = new Dictionary<int, int>();
-        var previewItem = 0;
-        foreach (var number in numbers)
+        str = str.ToLower();
+        var dict = new Dictionary<char, int>();
+        
+        foreach (var symbol in str)
         {
-            if (!dict.ContainsKey(number) && dict.ContainsKey(previewItem) && dict[previewItem] > 1)
-                return number;
-
-            if (!dict.ContainsKey(number))
-                dict.Add(number, 0);
-
-            dict[number]++;
-            previewItem = number;
+            if (!dict.ContainsKey(symbol))
+                dict.Add(symbol, 0);
+            dict[symbol]++;
         }
 
-        return dict.First(item => item.Value == 1).Key;
+        return dict.Count(item => item.Value > 1);
     }
 }
