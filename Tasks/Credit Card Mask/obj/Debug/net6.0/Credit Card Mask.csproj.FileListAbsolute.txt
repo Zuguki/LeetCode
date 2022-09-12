@@ -1,0 +1,15 @@
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/bin/Debug/net6.0/Credit Card Mask
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/bin/Debug/net6.0/Credit Card Mask.deps.json
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/bin/Debug/net6.0/Credit Card Mask.runtimeconfig.json
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/bin/Debug/net6.0/Credit Card Mask.dll
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/bin/Debug/net6.0/ref/Credit Card Mask.dll
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/bin/Debug/net6.0/Credit Card Mask.pdb
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/obj/Debug/net6.0/Credit Card Mask.csproj.AssemblyReference.cache
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/obj/Debug/net6.0/Credit Card Mask.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/obj/Debug/net6.0/Credit Card Mask.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/obj/Debug/net6.0/Credit Card Mask.AssemblyInfo.cs
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/obj/Debug/net6.0/Credit Card Mask.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/obj/Debug/net6.0/Credit Card Mask.dll
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/obj/Debug/net6.0/ref/Credit Card Mask.dll
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/obj/Debug/net6.0/Credit Card Mask.pdb
+/home/flash/Code/Rider/LeetCode/Tasks/Credit Card Mask/obj/Debug/net6.0/Credit Card Mask.genruntimeconfig.cache
