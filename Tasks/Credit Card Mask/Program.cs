@@ -1,24 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
-var str = "abcde";
-Console.WriteLine(Kata.DuplicateCount(str));
+Console.WriteLine(DigPow.digPow(89, 1));
 
-public class Kata
+public class DigPow 
 {
-    public static int DuplicateCount(string str)
+    public static long digPow(int n, int p)
     {
-        str = str.ToLower();
-        var dict = new Dictionary<char, int>();
-        
-        foreach (var symbol in str)
-        {
-            if (!dict.ContainsKey(symbol))
-                dict.Add(symbol, 0);
-            dict[symbol]++;
-        }
+        var strFromNumber = n.ToString();
+        var multiplyValue = p;
+        var resultValue = strFromNumber.Select(sym => int.Parse(sym.ToString()))
+            .Select(parseValue => (int) Math.Pow(parseValue, multiplyValue++)).Sum();
 
-        return dict.Count(item => item.Value > 1);
+        if (resultValue % n == 0)
+            return resultValue / n;
+        return -1;
     }
 }
