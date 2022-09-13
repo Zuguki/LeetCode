@@ -6,12 +6,9 @@ namespace Credit_Card_Mask;
 public class Test
 {
     [Test]
-    public void Test1()
+    public void test1() 
     {
-        StringAssert.AreEqualIgnoringCase("loquen", Kata.Remove_char("eloquent"));
-        StringAssert.AreEqualIgnoringCase("ountr", Kata.Remove_char("country"));
-        StringAssert.AreEqualIgnoringCase("erso", Kata.Remove_char("person"));
-        StringAssert.AreEqualIgnoringCase("lac", Kata.Remove_char("place"));
-        StringAssert.AreEqualIgnoringCase("", Kata.Remove_char("ok"));
+        Assert.AreEqual(1,Kata.RowSumOddNumbers(1));
+        Assert.AreEqual(74088,Kata.RowSumOddNumbers(42));
     }
 }

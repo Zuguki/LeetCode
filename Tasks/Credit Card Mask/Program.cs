@@ -4,7 +4,21 @@ using System.Linq;
 
 Console.ReadKey();
 
-public class Kata
+public static class Kata
 {
-    public static string Remove_char(string s) => s.Substring(1, s.Length - 2);
+    public static long RowSumOddNumbers(long n)
+    {
+        var arr = new int[n];
+        var value = -1;
+        for (var index = 0; index < n; index++)
+        {
+            for (var _ = 0; _ < index + 1; _++)
+            {
+                value += 2;
+                arr[index] += value;
+            }
+        }
+
+        return arr[n - 1];
+    }
 }

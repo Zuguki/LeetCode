@@ -3,6 +3,7 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::559FBF4F-2771-4F03-A30E-5F86369513DE::net6.0::Tasks.Tests&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::EC8EBC7C-B775-4F47-B03A-7DFA373552B4::net6.0::Credit_Card_Mask.Test.Test1&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::EC8EBC7C-B775-4F47-B03A-7DFA373552B4::net6.0::Credit_Card_Mask.Test.test1&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>
