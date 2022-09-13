@@ -6,9 +6,8 @@ namespace Credit_Card_Mask;
 public class Test
 {
     [Test]
-    public void test1() 
+    public void Testik()
     {
-        Assert.AreEqual(1,Kata.RowSumOddNumbers(1));
-        Assert.AreEqual(74088,Kata.RowSumOddNumbers(42));
+        Assert.AreEqual(new int[] {1, 2, 1, 1, 3, 1, 0, 0, 0, 0}, Kata.MoveZeroes(new int[] {1, 2, 0, 1, 0, 1, 0, 3, 0, 1}));
     }
 }
