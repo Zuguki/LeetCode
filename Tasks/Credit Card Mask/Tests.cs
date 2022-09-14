@@ -3,11 +3,21 @@ using NUnit.Framework;
 namespace Credit_Card_Mask;
 
 [TestFixture]
-public class Test
+public class Tests
+
 {
-    [Test]
-    public void Testik()
+    [TestCase(2, 7, 6)]
+    [TestCase(3, 10, 9)]
+    [TestCase(7, 17, 14)]
+    public void SmallNumbers(int divisor, int bound, int ex)
     {
-        Assert.AreEqual(new int[] {1, 2, 1, 1, 3, 1, 0, 0, 0, 0}, Kata.MoveZeroes(new int[] {1, 2, 0, 1, 0, 1, 0, 3, 0, 1}));
+        Assert.That(Kata.MaxMultiply(divisor, bound), Is.EqualTo(ex));
+    }
+    [TestCase(10, 50, 50)]
+    [TestCase(37, 200, 185)]
+    [TestCase(7, 100, 98)]
+    public void LargeNumbers(int divisor, int bound, int ex)
+    {
+        Assert.That(Kata.MaxMultiply(divisor, bound), Is.EqualTo(ex));
     }
 }
