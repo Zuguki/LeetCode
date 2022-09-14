@@ -5,28 +5,20 @@ Console.ReadKey();
 
 public class Kata
 {
-    public static string SpinWords(string sentence)
+    public static string CreatePhoneNumber(int[] numbers)
     {
-        var words = sentence.Split(' ');
-        var spaces = words.Length - 1;
         var sb = new StringBuilder();
-
-        foreach (var word in words)
+        for (var index = 0; index < numbers.Length; index++)
         {
-            sb.Append(word.Length < 5 ? word : Palindrome(word));
+            if (index == 0)
+                sb.Append('(');
+            if (index == 3)
+                sb.Append(") ");
+            if (index == 6)
+                sb.Append('-');
 
-            if (spaces-- > 0)
-                sb.Append(' ');
+            sb.Append(numbers[index]);
         }
-
-        return sb.ToString();
-    }
-
-    private static string Palindrome(string word)
-    {
-        var sb = new StringBuilder();
-        for (var index = word.Length - 1; index >= 0; index--)
-            sb.Append(word[index]);
 
         return sb.ToString();
     }
