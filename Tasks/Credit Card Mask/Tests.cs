@@ -6,18 +6,15 @@ namespace Credit_Card_Mask;
 public class Tests
 
 {
-    [TestCase(2, 7, 6)]
-    [TestCase(3, 10, 9)]
-    [TestCase(7, 17, 14)]
-    public void SmallNumbers(int divisor, int bound, int ex)
+    private static object[] sampleTestCases = new object[]
     {
-        Assert.That(Kata.MaxMultiply(divisor, bound), Is.EqualTo(ex));
-    }
-    [TestCase(10, 50, 50)]
-    [TestCase(37, 200, 185)]
-    [TestCase(7, 100, 98)]
-    public void LargeNumbers(int divisor, int bound, int ex)
+        new object[] {"iiisdoso", new int[] {8, 64}},
+        new object[] {"iiisdosodddddiso", new int[] {8, 64, 3600}},
+    };
+  
+    [Test, TestCaseSource("sampleTestCases")]
+    public void SampleTest(string data, int[] expected)
     {
-        Assert.That(Kata.MaxMultiply(divisor, bound), Is.EqualTo(ex));
+        Assert.AreEqual(expected, Deadfish.Parse(data));
     }
 }
