@@ -4,17 +4,26 @@ namespace Credit_Card_Mask;
 
 [TestFixture]
 public class Tests
-
 {
-    private static object[] sampleTestCases = new object[]
+    [Test]
+    public void TestCases()
     {
-        new object[] {"iiisdoso", new int[] {8, 64}},
-        new object[] {"iiisdosodddddiso", new int[] {8, 64, 3600}},
-    };
-  
-    [Test, TestCaseSource("sampleTestCases")]
-    public void SampleTest(string data, int[] expected)
-    {
-        Assert.AreEqual(expected, Deadfish.Parse(data));
+        Assert.AreEqual(true, Kata.IsValidIp("0.0.0.0"));
+        Assert.AreEqual(true, Kata.IsValidIp("12.255.56.1"));
+        Assert.AreEqual(true, Kata.IsValidIp("137.255.156.100"));
+
+        Assert.AreEqual(false, Kata.IsValidIp(""));
+        Assert.AreEqual(false, Kata.IsValidIp("abc.def.ghi.jkl"));
+        Assert.AreEqual(false, Kata.IsValidIp("123.456.789.0"));
+        Assert.AreEqual(false, Kata.IsValidIp("12.34.56"));
+        Assert.AreEqual(false, Kata.IsValidIp("12.34.56.00"));
+        Assert.AreEqual(false, Kata.IsValidIp("12.34.56.7.8"));
+        Assert.AreEqual(false, Kata.IsValidIp("12.34.256.78"));
+        Assert.AreEqual(false, Kata.IsValidIp("1234.34.56"));
+        Assert.AreEqual(false, Kata.IsValidIp("pr12.34.56.78"));
+        Assert.AreEqual(false, Kata.IsValidIp("12.34.56.78sf"));
+        Assert.AreEqual(false, Kata.IsValidIp("12.34.56 .1"));
+        Assert.AreEqual(false, Kata.IsValidIp("12.34.56.-1"));
+        Assert.AreEqual(false, Kata.IsValidIp("123.045.067.089"));
     }
 }
