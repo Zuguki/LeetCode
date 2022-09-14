@@ -1,24 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Text;
 
 Console.ReadKey();
 
-class Kata
+public class Kata
 {
-    public static bool IsValidIp(string ipAddres)
+    public static string SpinWords(string sentence)
     {
-        var values = ipAddres.Split('.');
-        if (values.Length != 4)
-            return false;
+        var words = sentence.Split(' ');
+        var spaces = words.Length - 1;
+        var sb = new StringBuilder();
 
-        foreach (var value in values)
+        foreach (var word in words)
         {
-            var parseValue = int.TryParse(value, out var intValue);
-            if (value.Length > 1 && value[0] == '0' || !parseValue || intValue is < 0 or > 255 || value.Contains(' '))
-                return false;
+            sb.Append(word.Length < 5 ? word : Palindrome(word));
+
+            if (spaces-- > 0)
+                sb.Append(' ');
         }
 
-        return true;
+        return sb.ToString();
+    }
+
+    private static string Palindrome(string word)
+    {
+        var sb = new StringBuilder();
+        for (var index = word.Length - 1; index >= 0; index--)
+            sb.Append(word[index]);
+
+        return sb.ToString();
     }
 }
