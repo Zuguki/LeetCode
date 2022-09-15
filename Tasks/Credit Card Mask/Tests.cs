@@ -6,10 +6,46 @@ namespace Credit_Card_Mask;
 public class Tests
 {
     [Test]
-    [TestCase(new int[]{1,2,3,4,5,6,7,8,9,0}, ExpectedResult="(123) 456-7890")]
-    [TestCase(new int[]{1,1,1,1,1,1,1,1,1,1}, ExpectedResult="(111) 111-1111")]
-    public static string FixedTest(int[] numbers)
+    public void TestToRoman_001()
     {
-        return Kata.CreatePhoneNumber(numbers);
+        int input = 1;
+        string expected = "I";
+
+        string actual = RomanNumerals.ToRoman(input);
+
+        Assert.AreEqual(expected, actual);
+    }
+
+    [Test]
+    public void TestToRoman_002()
+    {
+        int input = 2;
+        string expected = "II";
+
+        string actual = RomanNumerals.ToRoman(input);
+
+        Assert.AreEqual(expected, actual);
+    }
+
+    [Test]
+    public void TestFromRoman_001()
+    {
+        string input = "I";
+        int expected = 1;
+
+        int actual = RomanNumerals.FromRoman(input);
+
+        Assert.AreEqual(expected, actual);
+    }
+
+    [Test]
+    public void TestFromRoman_002()
+    {
+        string input = "II";
+        int expected = 2;
+
+        int actual = RomanNumerals.FromRoman(input);
+
+        Assert.AreEqual(expected, actual);
     }
 }

@@ -1,10 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2cc20011_002Dd089_002D4db8_002Da932_002D4f6edb5d8e73/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e0d26f40_002D625c_002D467e_002D8a8d_002Daeee3c81ead7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestFromRoman_001" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::559FBF4F-2771-4F03-A30E-5F86369513DE::net6.0::Tasks.Tests&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::EC8EBC7C-B775-4F47-B03A-7DFA373552B4::net6.0::Credit_Card_Mask.Test.Test1&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::EC8EBC7C-B775-4F47-B03A-7DFA373552B4::net6.0::Credit_Card_Mask.Test.test1&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::EC8EBC7C-B775-4F47-B03A-7DFA373552B4::net6.0::Credit_Card_Mask.Test&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::EC8EBC7C-B775-4F47-B03A-7DFA373552B4::net6.0::Credit_Card_Mask.Tests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
