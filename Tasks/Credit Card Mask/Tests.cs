@@ -6,10 +6,13 @@ namespace Credit_Card_Mask;
 public class Tests
 {
     [Test]
-    public void ASimpleKataTest()
+    public void SampleTest()
     {
-        Assert.AreEqual("110", Kata.Add("91", "19"));
-        Assert.AreEqual("1111111111", Kata.Add("123456789", "987654322"));
-        Assert.AreEqual("1000000000", Kata.Add("999999999", "1"));
+        Assert.AreEqual(new int[] {2},       Kata.ArrayDiff(new int[] {1, 2},    new int[] {1}));
+        Assert.AreEqual(new int[] {2, 2},    Kata.ArrayDiff(new int[] {1, 2, 2}, new int[] {1}));
+        Assert.AreEqual(new int[] {1},       Kata.ArrayDiff(new int[] {1, 2, 2}, new int[] {2}));
+        Assert.AreEqual(new int[] {1, 2, 2}, Kata.ArrayDiff(new int[] {1, 2, 2}, new int[] {}));
+        Assert.AreEqual(new int[] {},        Kata.ArrayDiff(new int[] {},        new int[] {1, 2}));
+        Assert.AreEqual(new int[] {3}, Kata.ArrayDiff(new int[] {1, 2, 3}, new int[] {1, 2}));
     }
 }
