@@ -31,6 +31,9 @@ public class RomanNumerals
 
         value = GetLetters(value.Item2, 'C', 'D');
         sb.Append(value.Item1);
+        
+        value = GetLetters(value.Item2, 'X', 'C', true);
+        sb.Append(value.Item1);
 
         value = GetLetters(value.Item2, 'L', 'C');
         sb.Append(value.Item1);
