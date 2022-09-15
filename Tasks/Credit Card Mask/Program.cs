@@ -22,23 +22,29 @@ public class RomanNumerals
         var sb = new StringBuilder();
         var value = GetLetters(n, 'M');
         sb.Append(value.Item1);
-
-        value = GetLetters(value.Item2, 'D', 'M', true);
+        
+        value = GetLetters(value.Item2, 'C', 'M', true);
         sb.Append(value.Item1);
 
-        value = GetLetters(value.Item2, 'C', 'D', true);
+        value = GetLetters(value.Item2, 'D', 'M');
         sb.Append(value.Item1);
 
-        value = GetLetters(value.Item2, 'L', 'C', true);
+        value = GetLetters(value.Item2, 'C', 'D');
         sb.Append(value.Item1);
 
-        value = GetLetters(value.Item2, 'X', 'L', true);
+        value = GetLetters(value.Item2, 'L', 'C');
+        sb.Append(value.Item1);
+
+        value = GetLetters(value.Item2, 'X', 'L');
+        sb.Append(value.Item1);
+
+        value = GetLetters(value.Item2, 'I', 'X', true);
         sb.Append(value.Item1);
 
         value = GetLetters(value.Item2, 'V');
         sb.Append(value.Item1);
 
-        value = GetLetters(value.Item2, 'I', 'V', true);
+        value = GetLetters(value.Item2, 'I', 'V');
         sb.Append(value.Item1);
         
         return sb.ToString();
@@ -63,7 +69,7 @@ public class RomanNumerals
         return number;
     }
 
-    private static (string, int) GetLetters(int value, char currentChar, char previewChar = default, bool needs4Check = false)
+    private static (string, int) GetLetters(int value, char currentChar, char previewChar = default, bool needs9Check = false)
     {
         var str = string.Empty;
         var currentValue = _romanValues[currentChar];
@@ -72,16 +78,25 @@ public class RomanNumerals
         if (counter == 0)
             return (str, value);
         
-        if (previewChar == default || !needs4Check)
+        if (previewChar == default)
         {
             str = new string(currentChar, counter);
             return (str, value % currentValue);
         }
 
-        if (counter == 4)
+        if (needs9Check && counter == 9)
+        {
+            str = currentChar + previewChar.ToString();
+            return (str, value % currentValue);
+        }
+        if (needs9Check)
+            return (str, value);
+
+        if (counter == 4 && !needs9Check)
             str = currentChar + previewChar.ToString();
         else
             str = new string(currentChar, counter);
+        
         return (str, value % currentValue);
     }
 }
