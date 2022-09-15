@@ -38,7 +38,7 @@ public class RomanNumerals
         value = GetLetters(value.Item2, 'V');
         sb.Append(value.Item1);
 
-        value = GetLetters(value.Item2, 'I');
+        value = GetLetters(value.Item2, 'I', 'V', true);
         sb.Append(value.Item1);
         
         return sb.ToString();
@@ -69,6 +69,9 @@ public class RomanNumerals
         var currentValue = _romanValues[currentChar];
         var counter = value / currentValue;
         
+        if (counter == 0)
+            return (str, value);
+        
         if (previewChar == default || !needs4Check)
         {
             str = new string(currentChar, counter);
@@ -79,6 +82,6 @@ public class RomanNumerals
             str = currentChar + previewChar.ToString();
         else
             str = new string(currentChar, counter);
-        return (str, value % currentChar);
+        return (str, value % currentValue);
     }
 }

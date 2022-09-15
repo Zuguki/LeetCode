@@ -26,6 +26,28 @@ public class Tests
 
         Assert.AreEqual(expected, actual);
     }
+    
+    [Test]
+    public void TestToRoman_003()
+    {
+        int input = 4;
+        string expected = "IV";
+
+        string actual = RomanNumerals.ToRoman(input);
+
+        Assert.AreEqual(expected, actual);
+    }
+    
+    [Test]
+    public void TestToRoman_004()
+    {
+        int input = 1270;
+        string expected = "MCCLXX";
+
+        string actual = RomanNumerals.ToRoman(input);
+
+        Assert.AreEqual(expected, actual);
+    }
 
     [Test]
     public void TestFromRoman_001()
